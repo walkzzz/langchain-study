@@ -120,14 +120,14 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+.env*
 .venv
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
-
+py313/
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -170,3 +170,6 @@ cython_debug/
 # Temporary files
 *.tmp
 *.temp
+
+# git files
+.git/
